@@ -221,4 +221,4 @@ document.querySelector('#btn-warning').onclick = function () {
   });
 };
 },{"../css/message.css":"LU1D"}]},{},["XHdR"], null)
-//# sourceMappingURL=message.dc7cf5ff.js.map
+//# sourceMappingURL=message.c72a7a67.js.map

@@ -42,17 +42,17 @@
 }
 
 .message.success {
-    background-color: #67C23A;
+    background-color: #00cc66;
 }
 
 .message.warning {
-    background-color: #E6A23C;
+    background-color: #ff9900;
 }
 
 .message.info {
-    background-color: #909399;
+    background-color: #3399ff;
 }
 
 .message.danger {
-    background-color: #F56C6C;
+    background-color: #ff3300;
 }
