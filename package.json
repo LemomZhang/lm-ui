@@ -1,14 +1,15 @@
 {
-  "name": "lm-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cssnano": "^4.1.10"
-  }
+	"name": "lm-ui",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cssnano": "^4.1.10"
+	}
 }
