@@ -1,0 +1,96 @@
+.button {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.button:hover {
+    border-color: lightskyblue;
+    color: lightskyblue
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 10;
+    background: lightskyblue;
+    color: #fff;
+    display: none;
+    white-space: nowrap;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.tooltip::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 6px solid transparent;
+
+}
+
+.tooltip.top {
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip.top::before {
+    border-top-color: lightskyblue;
+    transform: translateX(-50%);
+    top: 100%;
+    left: 50%;
+}
+
+.tooltip.bottom {
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip.bottom::before {
+    border-bottom-color: lightskyblue;
+    transform: translateX(-50%);
+    bottom: 100%;
+    left: 50%;
+}
+
+.tooltip.left {
+    right: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tooltip.left::before {
+    border-left-color: lightskyblue;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -11px;
+}
+
+.tooltip.right {
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tooltip.right::before {
+    border-right-color: lightskyblue;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -11px;
+}
+
+.tooltip.show {
+    display: block;
+    ;
+}
+
+/*# sourceMappingURL=/tooltip.2b9cb5ab.css.map */
